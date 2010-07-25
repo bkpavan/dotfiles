@@ -1,0 +1,17 @@
+vbell on
+escape ^Xx
+startup_message off
+shell -bash
+#caption always "%{Gb}%3n %t %=[%l | %H | %c]"
+
+hardstatus alwayslastline
+hardstatus string "%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %D %Y-%m-%d %c:%s %{g}]"
+#startup_message off # Turn off the splash screen
+##escape ^Bb          # Instead of Control-a, make the escape/command character be Control-b
+#autodetach on       # Autodetach session on hangup instead of terminating screen completely
+#defscrollback 30000 # Use a 30000-line scrollback buffer
+#
+##caption string "%?%F%{= gk}%:%{= wk}%? %n %?%F%{= wk}%? %C%A %{= wk} %t%= "
+#caption always "%?%F%{-b bc}%:%{-b bb}%?%C|%D|%M %d|%H%?%F%{+u wb}%? %L=%-Lw%45>%{+b bb}%n%f* %t%{-}%+Lw%-0<"
+##caption always 
+#hardstatus string "[lisa %n%?: %t%?] %h"
