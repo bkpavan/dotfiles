@@ -1,7 +1,9 @@
 vbell on
 escape ^Xx
 startup_message off
-shell -bash
+#shell -bash
+#defshell -bash
+
 #caption always "%{Gb}%3n %t %=[%l | %H | %c]"
 
 hardstatus alwayslastline
