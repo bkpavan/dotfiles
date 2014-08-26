@@ -6,6 +6,8 @@ call vundle#rc()
 
 " let Vundle manage Vundle
 " required! 
+" Setup Vundle from https://github.com/gmarik/Vundle.vim
+
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
